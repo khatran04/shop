@@ -1,0 +1,52 @@
+html{
+    font-size: 10px;
+}
+button{
+    background-color: #90EE90;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    cursor: pointer;
+    font-size: 22px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+.d-flex > div{
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+.w-24{
+    width: 24rem;
+}
+.AnimalShow {
+    position: relative;
+    border: 1px solid #666;
+    border-radius: 5px;
+    overflow: hidden; 
+    margin-bottom: 10px;
+  }
+  
+  .AnimalShow img {
+    width: 100%;
+    height: auto;
+    display: block; 
+  }
+  
+  .AnimalShow .like {
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+    padding: 5px 10px;
+    border-top-left-radius: 5px;
+  }
+  
+  
